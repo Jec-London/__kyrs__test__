@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* main page */
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/bg-main-3840x2160.jpg);
+    background-color: rgba(77,20,29);
+    width: 100%;
+    height: 100vh;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000050;
+    border-radius: 10rem;
+    height: 60%;
+    width: 40%;
+}
+
+.main-content a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 1rem 3rem 1rem 3rem;
+    margin: 2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.555);
+    border-radius: 40rem;
+    transition: 1s;
+}
+
+.main-content a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* Table 1 */
+
+.home{
+    text-align: center;
+    margin: 3rem;
+}
+
+.home a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    border-radius: 5rem;
+    padding: 1rem 3rem 1rem 3rem;
+    transition: 1s;
+}
+
+.home a:hover{
+    background-color: rgba(77,20,29);
+    color: white;
+}
+
+.first-table{
+    width: 75%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.first-table td{
+    border: 1px solid black;
+    height: 50px;
+    width: 33.33%;
+}
+
+.first-table .h56{
+    height: 200px;
+}
+
+/* Table2 */
+
+.secondary-table{
+    width: 90%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.secondary-table td{
+    border: 1px solid black;
+    height: 50px;
+}
+
+.secondary-table .w3{
+    width: 60%;
+}
+
+.secondary-table .w4{
+    width: 28%;
+}
+
+/* nested Table 3 */
+
+.nested-table{
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 1rem auto;
+}
+
+.nested-table td{
+    border: 1px solid black;
+    width: 33.33%;
+}
+
+.nested-table .h47-36-258{
+    height: 200px;
+}
